@@ -1,0 +1,30 @@
+//============================================================================
+// Name        : String_Stream.cpp
+// Author      : Osama Hamdy
+// Description : Explain the functionality of String Stream in c++
+//============================================================================
+
+#include <iostream>
+#include<string.h>
+using namespace std;
+string remove_spaces(string str)
+{
+	stringstream ss(str);
+	string temp="";
+	str="";
+	while(ss>>temp)
+	{
+		str+=temp;
+	}
+
+	return temp;
+
+}
+int main() {
+	string str="Hello from the other side ";
+
+	cout<<remove_spaces(str)<<endl;
+
+
+	return 0;
+}

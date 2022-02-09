@@ -1,0 +1,4 @@
+05:14:50 **** Incremental Build of configuration Debug for project String_Stream ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\String_Stream.o" "..\\src\\String_Stream.cpp" 
+g++ -o String_Stream.exe "src\\String_Stream.o" 

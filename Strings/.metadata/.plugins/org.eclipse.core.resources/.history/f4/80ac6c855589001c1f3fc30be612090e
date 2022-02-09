@@ -1,0 +1,24 @@
+//============================================================================
+// Name        : String_Stream.cpp
+// Author      : Osama Hamdy
+// Description : Explain the functionality of String Stream in c++
+//============================================================================
+
+#include <iostream>
+#include<string.h>
+using namespace std;
+
+int main() {
+
+
+	string inword;
+
+	cin>>inword;
+
+	cout<<inword<<endl;
+
+
+
+
+	return 0;
+}
